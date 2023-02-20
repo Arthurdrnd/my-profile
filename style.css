@@ -1,0 +1,64 @@
+/*Colors and fonts*/
+body {
+    background:#F7F9FC;
+    color: #575F7D;
+    font-family: 'lora', serif;
+    font-size: 16px ;
+    font-weight: lighter;
+} 
+img {
+  border-radius: 50%;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+} 
+
+h1 {
+  color: #575F7D;
+  font-size: 32px;
+}
+h2 {
+  color: #7ECE90;
+  font size: 24px;
+  font-weight: lighter;
+}
+h3 {
+  font-size: 16px;
+} 
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: red;
+}
+a:hover {
+  color: green;
+}
+
+/* Custom desogn with class */
+.container {
+  width: 760px;
+  margin: 600px auto;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 500px) {
+  .container{
+    background-color: grey;
+  }
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px ;
+  box-shadow: :0px 10px 30px rgba(0,0,0,0.5);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align:center;
+}
+
+
